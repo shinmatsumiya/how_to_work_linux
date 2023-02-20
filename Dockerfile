@@ -22,5 +22,5 @@ RUN apt install -y containerd
 RUN apt install -y libvirt-daemon-system
 RUN apt install -y vim
 RUN apt install -y strace
-RUN apt install -y 
-RUN apt install -y 
+# RUN apt install -y psmisc
+
