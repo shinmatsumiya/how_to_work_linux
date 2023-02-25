@@ -24,3 +24,5 @@ RUN apt install -y vim
 RUN apt install -y strace
 # RUN apt install -y psmisc
 
+# vimのutf-8設定
+COPY .vimrc /root/
